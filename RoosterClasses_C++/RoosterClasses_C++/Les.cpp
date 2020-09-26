@@ -1,7 +1,8 @@
 #include "Les.h"
 
-Les::Les(char DatumEnTijd, char Lokaal, char Groep, char Opmerking)
+Les::Les(char DatumEnTijd, char Lokaal, char Groep, char Module, char Opmerking)
 {
+	moduleNaam = Module;
 	datumEnTijd = DatumEnTijd;
 	lokaal = Lokaal;
 	groep = Groep;
